@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  text-align: center;
+}
+.content img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.text-uppercase {
+  margin: -15% 0 0 0;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+.contact {
+  margin: auto;
+  height: 1350px;
+  width: 1000px;
+  margin-top: 200px;
+}
+.row {
+  margin: auto;
+  height: 800px;
+  width: 1000px;
+}
+.infomation {
+  height: 300px;
+  width: 400px;
+  float: left;
+}
+.info-1 {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text {
+  font-size: 30px;
+  font-weight: 700;
+}
+.info-top {
+  height: 60px;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-location {
+  font-size: 17px;
+
+  color: #383838;
+}
+.fill {
+  width: 20px;
+  float: left;
+}
+.info-text {
+  float: right;
+  width: 250px;
+}
+.bi-pin-map-fill {
+  color: #f54f29;
+  font-size: 30px;
+}
+.bi-telephone-fill {
+  color: #f54f29;
+  font-size: 30px;
+}
+.bi-envelope-fill {
+  color: #f54f29;
+  font-size: 30px;
+}
+.contact-content {
+  height: 700px;
+  width: 600px;
+  float: right;
+}
+.info-2 {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info-contact {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.info-contact label {
+  color: #1c1c1c;
+}
+.info-contact input {
+  width: 600px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #1c1c1c;
+  line-height: 22px;
+  padding: 0 20px;
+}
+.info-contact #name-contact4 {
+  width: 600px;
+  min-height: 150px;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #1c1c1c;
+
+  line-height: 22px;
+  padding: 20px;
+}
+.mb-1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #383838;
+}
+.more {
+  margin: auto;
+  padding-top: 70px;
+  font-weight: 1000;
+  font-size: 20px;
+  color: orangered;
+  position: relative;
+}
+.text-map {
+  text-align: center;
+  font-size: 30px;
+  color: #1c1c1c;
+  line-height: 38px;
+  font-weight: 500;
+}
+.map {
+  width: 100%;
+}

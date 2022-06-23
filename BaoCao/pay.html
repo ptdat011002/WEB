@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/pay.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <a href="./index.html">
+            <img src="./img/main-logo.png" alt="" />
+          </a>
+        </div>
+        <div class="main-header">
+          <div class="header-link">
+            <a href="./index.html">Trang chủ</a>
+          </div>
+          <div class="header-link">
+            <a href="./product.html">Sneaker</a>
+          </div>
+          <div class="header-link">
+            <a href="blogs.html">Tin tức</a>
+          </div>
+          <div class="header-link">
+            <a href="contact.html">Liên hệ</a>
+          </div>
+          <div class="header-link">
+            <a href="about-us.html">Chúng tôi</a>
+          </div>
+        </div>
+        <div class="gio-hang">
+          <div class="header-gio">
+            <input type="text" placeholder="Tìm kiếm" />
+            <a href="">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+          <div class="header-gio">
+            <a href="./cart.html">
+              <i class="bi bi-cart3"></i>
+            </a>
+            <div class="amount-header">2</div>
+            <div class="see">
+              <div>
+                <div class="see-detail">
+                  <div><img src="./img/vir1.jpg" alt="" /></div>
+                  <div>VIRGIL ABLOH</div>
+                </div>
+                <div class="see-detail">
+                  <div><img src="./img/reb2.jpg" alt="" /></div>
+                  <div>REVENGE LEGACY</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-gio">
+            <a href="./login.html">
+              <i class="bi bi-person-circle"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="main-top">
+        <div>
+          <div class="heading">1. Thông tin giao hàng</div>
+          <div class="top-left">
+            <div class="name-phone">
+              <div>
+                <input type="text" class="input-address" style="width:320px;" placeholder="Họ tên"/>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="input-address"
+                  placeholder="Số điện thoại"
+                />
+              </div>
+            </div>
+            <div>
+              <input type="text" class="input-address" style="width:560px;" placeholder="Email" />
+            </div>
+            <div class="name-phone">
+              <div>
+                <select class="input-address" name="" id="">
+                  <option value="">Chọn thành phố</option>
+                  <option value="">Hà Nội</option>
+                  <option value="">Đà Nẵng</option>
+                  <option value="">Thành Phố Hồ CHí Minh</option>
+                </select>
+              </div>
+              <div>
+                <select class="input-address" name="" id="">
+                  <option value="">Chọn quận / huyện</option>
+                  <option value="">Chưa có thông tin</option>
+                </select>
+              </div>
+              <div>
+                <select class="input-address" name="" id="">
+                  <option value="">Chọn xã / phố</option>
+                  <option value="">Chưa có thông tin</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <input
+              style="width:560px;"
+                class="input-address"
+                type="text"
+                placeholder="Địa chỉ cụ thể"
+              />
+            </div>
+            <div>
+              <textarea
+              style="width:560px;"
+                class="textarea"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Ghi chú ..."
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="top-right">
+          <div class="heading">3. Hoàn tất</div>
+          <div>
+            <div class="top-right-product">
+              <div>
+                <div>VIRGIL ABLOH</div>
+                <div>1.785.000 vnđ</div>
+              </div>
+              <div>1</div>
+            </div>
+            <div class="top-right-product">
+              <div>
+                <div>REVENGE LEGACY</div>
+                <div>1.170.000 vnđ</div>
+              </div>
+              <div>1</div>
+            </div>
+            <div class="top-right-pay">
+              <div>
+                <div>Mã khuyến mãi :</div>
+                <div>0đ</div>
+              </div>
+              <div>
+                <div>Tổng cộng :</div>
+                <div class="pay-product">2955000 vnđ</div>
+              </div>
+            </div>
+            <div>
+              <a href="" class="sub-out-product">Đặt hàng</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="heading">2. Phương thức thanh toán</div>
+        <div>
+          <div class="select-tt">
+            <img class="ms-5 me-3" src="./img/image 103.png" alt="Fail" />
+            <p class="text-method m-0">THANH TOÁN TRỰC TIẾP KHI NHẬN HÀNG</p>
+          </div>
+          <div class="select-tt">
+            <img class="ms-5 me-3" src="./img/image 104.png" alt="Fail" />
+            <p class="text-method m-0">THANH TOÁN TRỰC TUYẾN</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-top">
+          <div class="footer-top-detail">
+            <div class="footer-top-logo">
+              SNEAKER
+              <br />
+              Ở đây có giầy
+            </div>
+            <div>
+              <div class="footer-icon">
+                <div>
+                  <img src="./img/icon_location.png" alt="" />
+                </div>
+                <div>
+                  <p>Địa chỉ : Số 48 ngõ 132 đường Cầu Giấy</p>
+                </div>
+              </div>
+              <div class="footer-icon">
+                <div>
+                  <img src="./img/icon_phone.png" alt="" />
+                </div>
+                <div>
+                  <p>Hotline : 0123456789</p>
+                </div>
+              </div>
+              <div class="footer-icon">
+                <div>
+                  <img src="./img/icon_mail.png" alt="" />
+                </div>
+                <div>
+                  <p>Email : tdsneaker@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-menu">
+            <div class="footer-menu-top">
+              <b>Thông tin</b>
+            </div>
+            <div class="footer-menu-top">
+              <ul>
+                <li>
+                  <a href="">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="">Sneaker</a>
+                </li>
+                <li>
+                  <a href="">Tin tức</a>
+                </li>
+                <li>
+                  <a href="">Liên hệ</a>
+                </li>
+                <li>
+                  <a href="">About us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-sp">
+            <div class="footer-sp-top">
+              <b>Hỗ trợ</b>
+            </div>
+
+            <div class="footer-sp-bottom">
+              <ul>
+                <li>
+                  <a href="">Đổi trả</a>
+                </li>
+                <li>
+                  <a href="">Chính sách bảo hành</a>
+                </li>
+                <li>
+                  <a href="">Chính sách vận chuyển</a>
+                </li>
+                <li>
+                  <a href="">Phương thức thanh toán</a>
+                </li>
+                <li>
+                  <a href="">Điều khoản dịch vụ</a>
+                </li>
+                <li>
+                  <a href="">Chính sách riêng tư</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-follow">
+            <div class="footer-follow-top">
+              <b>Theo dõi chúng tôi</b>
+            </div>
+            <div class="footer-follow-bottom">
+              <div class="footer-follow-bottom-content">
+                Nhận thông báo ưu đãi qua mạng xã hội với thông tin mới nhất của
+                chúng tôi về mua sắm và các ưu đãi đặc biệt.
+              </div>
+              <div class="footer-follow-bottom-content-img">
+                <div>
+                  <a href="">
+                    <img src="./img/icon-facebook.webp" alt="" />
+                  </a>
+                </div>
+                <div>
+                  <a href="">
+                    <img src="./img/icon-instagram.png" alt="" />
+                  </a>
+                </div>
+                <div>
+                  <a href="">
+                    <img src="./img/icon-tiktok.webp" alt="" />
+                  </a>
+                </div>
+                <div>
+                  <a href="">
+                    <img src="./img/icon-google.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <hr />
+          <p>Sneaker © 2022 all right reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/cart.js"></script>
+
+  </body>
+</html>
