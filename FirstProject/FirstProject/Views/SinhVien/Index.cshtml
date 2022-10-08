@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thong tin</title>
+</head>
+<body>
+    <div style="border: 1px solid black; width:20%">
+        @using (Html.BeginForm())
+        {
+            <div>FullName:</div>
+            @*<input type="text" name="FullName" />*@
+            @Html.TextBox("FullName")
+            <div>PassWord:</div>
+            @*<input type="PassWord" name="PassWord" />*@
+            @Html.Password("PassWord")
+
+            <div>Photo:</div>
+            <input type="file" name="Photo" />
+
+            <div>Married Status:</div>
+            <lable>@Html.CheckBox("Married Status") Single</lable>
+
+            <div>Gender:</div>
+            <label>@Html.RadioButton("Gender", true) Male</label>
+            <label>@Html.RadioButton("Gender", false) Female</label>
+
+            <div>Description:</div>
+            @Html.TextArea("Description")
+
+            <div>Class:</div>
+            @Html.DropDownList("Classes")
+            <hr />
+            <input type='submit' value="Register" />
+        }
+    </div>
+</body>
+</html>

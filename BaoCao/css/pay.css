@@ -1,0 +1,114 @@
+.textarea{
+    height: 163px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+.input-address{
+    height: 50px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+.name-phone{
+    display: flex;
+}
+
+.main-top{
+    display: flex;
+    margin-top: 50px;
+}
+
+.main-top > div:first-child{
+    width: 60%;
+}
+
+.heading{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 600;
+}
+
+.main{
+    width: 1200px;
+    margin: auto;
+}
+
+.select-tt{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.select-tt-border{
+    border: 2px solid orangered;
+}
+
+.select-tt > img{
+    margin-right: 20px;
+}
+
+
+.top-right{
+    padding: 20px;
+    width: 35%;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 13%);
+    border-radius: 10px;
+}
+
+.top-right-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    border-bottom: 1px solid orangered;
+}
+
+.top-right-product > div:first-child > div:first-child{
+    color: orangered;
+    margin-bottom: 15px;
+}
+
+.top-right-pay > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+
+.sub-out-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    margin: 20px auto;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.sub-out-product:hover{
+    background-color: orangered;
+    color: white;
+}

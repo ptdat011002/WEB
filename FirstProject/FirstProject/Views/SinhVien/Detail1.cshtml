@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail1</title>
+</head>
+<body>
+    <div> 
+        <h2>Thông tin sinh viên</h2>
+        <ul>
+            <li>Mã sinh viên: @ViewBag.Id</li>
+            <li>Mật khẩu: @ViewBag.PassWord</li>
+            <li>Tên sinh viên: @ViewBag.FullName</li>
+            <li>Giới tính: @ViewBag.Gender</li>
+            <li>Ngày sinh: @ViewBag.Birthday</li>
+            <li>Ghi chú: @ViewBag.Notes</li>
+        </ul>
+    </div>
+</body>
+</html>

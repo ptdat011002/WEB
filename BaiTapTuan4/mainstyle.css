@@ -1,0 +1,156 @@
+body{
+    padding: auto; 
+    margin: auto;
+}
+.header{
+    margin: auto;
+    width: 940px; 
+    height: 120px; 
+}
+.content{
+    padding: 15px;
+    margin: auto;
+    width: 940px; 
+    height: 100%; 
+}
+.A{
+    float: left;
+    width: 234px;
+    margin-top: -6px;
+}
+.A-1 div{
+    margin: auto;
+    height: 28px; 
+    width: 209px;
+}
+.A-1 p{
+    font-weight: 700;
+    width: 150px;
+    margin: 3px;
+    padding-top: 7px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.A-1 .A-2{
+    width: 200px;
+    height: 47px;
+}
+.A-1 p{
+    font-weight: 700;
+    padding-left: 30px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.A-2 p{
+    font-weight: 700;
+    padding-left: 50px;
+    font-size: 13px;
+}
+.A-2 a{
+    padding-left: 55px;
+    font-size: 13px;
+}
+.A-3{
+    margin-top: 3px;
+    width: 233px;
+    height: 400px;
+    border: 1px solid grey;
+}
+.A-4{
+    margin-left: 20px; 
+    float:left;
+}
+.A-5{
+    margin-top: 30px; 
+    height: 20px;
+}
+.A-6{
+    margin-top: 10px; 
+    height: 20px;
+}
+.A-7{
+    margin-top: -25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.A-8{
+    margin-top: 3px;
+    width: 233px;
+    height: 400px;
+    border: 1px solid grey;
+}
+.B{
+    height: 100%;
+}
+.B-1{
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 100px;
+    width: 350px;
+    float: left;
+}
+.B-2{
+    margin-top: -70px;
+    float: right;
+    width: 480px; 
+    height: 150px; 
+}
+.B-3{
+    margin-top: -130px;
+    height: 100%;
+    width: 690px;
+    float: right;
+}
+.B-4{
+    background-color: white;
+    height: 239px;
+    width: 220px;
+    float: left;
+    border: 1px solid grey;
+}
+.B-5{
+    background-color: white;
+    margin-left: 10px;
+    height: 239px;
+    width: 220px;
+    float: left;
+    border: 1px solid grey;
+}
+.B-6{
+    background-color: white;
+    margin-left: 10px;
+    height: 239px;
+    width: 220px;
+    float: left;
+    border: 1px solid grey;
+}
+.B-7{
+    background-color: white;
+    margin-top: 10px;
+    height: 239px;
+    width: 220px;
+    float: left;
+    border: 1px solid grey;
+}
+.B-8{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 239px;
+    width: 220px;
+    float: left;
+    border: 1px solid grey;
+}
+.B-9{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 239px;
+    width: 220px;
+    float: left;
+    border: 1px solid grey;
+}
+.footer{
+    margin-left: 200px;
+    width: 940px;
+}

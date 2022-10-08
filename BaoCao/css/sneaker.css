@@ -1,0 +1,169 @@
+.link-select {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.link-select span {
+  margin: 10px;
+}
+
+.detail-product {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.link-select a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.sub-img {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sub-img > div {
+  width: 24%;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+}
+
+.sub-img img {
+  width: 100%;
+}
+
+.img {
+  width: 50%;
+}
+
+.main-img {
+  box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+  margin-bottom: 20px;
+}
+
+.main-img img {
+  width: 100%;
+}
+
+.sale1 {
+  width: 100px;
+  line-height: 30px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+}
+
+.name-product {
+  font-size: 30px;
+}
+
+.price-product {
+  display: flex;
+  align-items: flex-end;
+}
+
+.price-product > div:first-child {
+  color: red;
+  font-size: 25px;
+}
+
+.price-product > div:last-child {
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: gray;
+  font-size: 17px;
+}
+
+.size {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.size > div {
+  cursor: pointer;
+  width: 70px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid black;
+  margin: 10px 10px 10px 10px;
+}
+
+.content-product {
+  width: 47%;
+}
+
+.content-product > div {
+  margin-bottom: 20px;
+}
+
+.add-product a {
+  display: block;
+  width: 150px;
+  line-height: 50px;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid orangered;
+}
+
+.add-product a:active {
+  background-color: white;
+  color: orangered;
+}
+
+.product {
+  width: 24%;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lock-detail {
+  display: none;
+}
+
+.active {
+	border: 5px solid orangered;
+}
+
+.active2{
+  background-color: orangered;
+  color: white;
+  border: 1px solid orangered !important;
+}
+
+.describe{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+}
+
+.describe > div:first-child{
+  font-size: 25px;
+  padding: 10px 0px 25px 10px;
+  color: orangered;
+}
+
+.describe-detail{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.describe-detail > div{
+  width: 50%;
+  font-size: 18px;
+  padding: 10px 0;
+}

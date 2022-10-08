@@ -1,0 +1,65 @@
+﻿@model FirstProject.Models.DTO.SinhVien
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+        div label{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div>
+        <h1>Đăng ký thành viên</h1>
+        @using (Html.BeginForm())
+        {
+            <div>
+                @Html.LabelFor(m => m.Id)
+                @*@Html.TextBoxFor(m => m.Id)*@
+                @Html.EditorFor(m => m.Id)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.PassWord)
+                @*@Html.PasswordFor(m => m.PassWord)*@
+                @Html.EditorFor(m => m.PassWord)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.FullName)
+                @*@Html.TextBoxFor(m => m.FullName)*@
+                @Html.EditorFor(m => m.FullName)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.Gender)
+                <label>@Html.RadioButtonFor(m => m.Gender, true) Nam</label>
+                <label>@Html.RadioButtonFor(m => m.Gender, false) Nữ</label>
+            </div>
+            <div>
+                @Html.LabelFor(m => m.Birthday)
+                @*@Html.TextBoxFor(m => m.Birthday)*@
+                @Html.EditorFor(m => m.Birthday)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.Notes)
+                @*@Html.TextAreaFor(m => m.Notes)*@
+                @Html.EditorFor(m => m.Notes)
+            </div>
+            @*@Html.EditorForModel()*@
+            <div>
+                <input type="submit" value="Đăng ký" />
+            </div>
+        }
+    </div>
+</body>
+</html>

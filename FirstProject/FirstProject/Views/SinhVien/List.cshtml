@@ -1,0 +1,50 @@
+﻿@model List<FirstProject.Models.DTO.SinhVien>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <h2>welcome @Session["User"]</h2>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <th>Mã sinh viên</th>
+                <th>Tên sinh viên</th>
+                <th>Mật khẩu</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Ghi chú</th>
+                <th></th>
+            </tr>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FullName</td>
+                    <td>@item.PassWord</td>
+                    <td>@item.Gender</td>
+                    <td>@item.Birthday.ToString("dd-MM-yyyy")</td>
+                    <td>@item.Notes</td>
+                    <td>
+                        @Html.ActionLink("Sửa", "Edit"@*, new {Id = item.Id }*@)
+                        @Html.ActionLink("Xóa", "Delete"@*, new { Id = item.Id }*@)
+                    </td>
+                </tr>
+            }    
+        </table>
+    </div>
+</body>
+</html>

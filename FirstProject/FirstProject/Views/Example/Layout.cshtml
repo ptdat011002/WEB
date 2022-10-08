@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SayHello</title>
+    <style>
+        h2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Welcome to @ViewBag.Meesage</h2>
+        @{ var message = "hello world!"; }
+        <p>Thông điệp message là: @message</p>
+        @{
+            var greeting = "Welcome to our site!";
+            var weekDay = DateTime.Now.DayOfWeek;
+            var greetingMessage = greeting + "Today is " + weekDay;
+        }
+        <p>greetingMessage là: @greetingMessage</p>
+
+        @*@{ 
+            string[] MonHoc = {
+                "Lập trình Web",
+                "Lập trình .NET",
+                "Lập trình Moblie",
+                "Lập trình C",
+            };
+        }*@
+        <ul>
+            @{ 
+                foreach(var item in @ViewBag.MonHoc)
+            {
+                <li>@item</li>
+            }
+            }
+        </ul>
+    </div>
+</body>
+</html>

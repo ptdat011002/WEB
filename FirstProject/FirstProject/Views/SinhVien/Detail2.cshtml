@@ -1,0 +1,27 @@
+﻿@model FirstProject.Models.DTO.SinhVien
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail2</title>
+</head>
+<body>
+    <div>
+        <h2>Thông tin sinh viên</h2>
+        <ul>
+            <li>Mã sinh viên: @Model.Id</li>
+            <li>Mật khẩu: @Model.PassWord</li>
+            <li>Tên sinh viên: @Model.FullName</li>
+            <li>Giới tính: @Model.Gender</li>
+            <li>Ngày sinh: @Model.Birthday</li>
+            <li>Ghi chú: @Model.Notes</li>
+        </ul>
+    </div>
+</body>
+</html>
